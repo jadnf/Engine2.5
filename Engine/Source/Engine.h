@@ -1,18 +1,32 @@
 #pragma once
+//--core
 #include "Engine.h"
-#include "Renderer.h"
-#include "Audio.h"
-#include "Actor.h"
-#include "Vector2.h"
-#include "Input.h"
-#include "Particle.h"
-#include "Random.h"
-#include "EngineTime.h"
-#include "MathUtils.h"
-#include "Model.h"
-#include "Transform.h"
-#include "ParticleSystem.h"
+#include "Core/EngineTime.h"
+#include "Core/EAssert.h"
+#include "Core/EFile.h"
+//--systems
+// 
+//renderer
+#include "Renderer/Renderer.h"
+#include "Renderer/Particle.h"
+#include "Renderer/ParticleSystem.h"
+#include "Renderer/Model.h"
+#include "Renderer/Text.h"
+#include "Renderer/Font.h"
+//input
+#include "Input/Input.h"
+//audio
+#include "Audio/Audio.h"
+//--Math
+#include "Math/Vector2.h"
+#include "Math/Random.h"
+#include "Math/MathUtils.h"
+#include "Math/Transform.h"
+//framework
+#include "Framework/Actor.h"
+#include "Framework/Scene.h"
 
+#include "Game.h"
 #include <SDL.h>
 #include <fmod.hpp>
 #include <iostream>
@@ -45,13 +59,9 @@ private:
 	bool quit{ false };
 
 	std::unique_ptr<Time> m_time;
-
 	std::unique_ptr<Renderer> m_renderer;
 	std::unique_ptr<Input> m_input;
 	std::unique_ptr<Audio> m_audio;
 	std::unique_ptr<ParticleSystem> m_particleSystem;
-
 };
-
-extern Engine g_engine;
 
