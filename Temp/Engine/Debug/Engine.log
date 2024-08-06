@@ -1,6 +1,2 @@
-﻿  Actor.cpp
-  Scene.cpp
-  Input.cpp
-  Text.cpp
-  Generating Code...
+﻿  Engine.cpp
   Engine.vcxproj -> C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Bin\Engine\Debug\Engine.lib

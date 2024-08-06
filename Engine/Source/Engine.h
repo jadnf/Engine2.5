@@ -13,6 +13,7 @@
 #include "Renderer/Model.h"
 #include "Renderer/Text.h"
 #include "Renderer/Font.h"
+#include "Renderer/Texture.h"
 //input
 #include "Input/Input.h"
 //audio
@@ -25,6 +26,15 @@
 //framework
 #include "Framework/Actor.h"
 #include "Framework/Scene.h"
+
+//resources 
+#include "Resource/Resource.h"
+#include "Resource/ResourceManager.h"
+
+//components
+#include "Components/TextureComponent.h"
+
+//files
 
 #include "Game.h"
 #include <SDL.h>

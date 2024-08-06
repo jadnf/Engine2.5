@@ -20,3 +20,13 @@ bool Font::Load(const std::string& name, int fontSize)
 
 	return true;
 }
+
+bool Font::Create(std::string name, ...)
+{
+	va_list args;
+	va_start(args, name);
+	int font_size = va_arg(args, int);
+	va_end(args);
+
+    return Load(name, font_size);
+}

@@ -1,4 +1,5 @@
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Audio\Audio.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\Audio.obj
+C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Components\TextureComponent.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\TextureComponent.obj
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Core\EAssert.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\EAssert.obj
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Core\EFile.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\EFile.obj
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Core\EngineTime.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\EngineTime.obj
@@ -12,3 +13,4 @@ C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Rend
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Renderer\ParticleSystem.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\ParticleSystem.obj
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Renderer\Renderer.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\Renderer.obj
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Renderer\Text.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\Text.obj
+C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Renderer\Texture.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\Texture.obj
