@@ -12,7 +12,6 @@ public:
 	void Clear() { m_resources.clear(); }
 
 	friend Singleton;
-
 protected:
 	ResourceManager() = default;
 private:
@@ -35,7 +34,7 @@ inline res_t<T> ResourceManager::Get(const std::string& name, TArgs ... args)
 		return res_t<T>();
 	}
 	
-	//ass resource to resource manager
+	//add resource to resource manager
 	m_resources[name] = resource;
 
 	return resource;

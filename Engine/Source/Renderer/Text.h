@@ -7,7 +7,7 @@ class Text
 {
 public:
 	Text() = default;
-	Text(Font* font) : m_font{ font } {}
+	Text(res_t<Font> font) : m_font{ font.get() } {}
 	~Text();
 
 	bool Create(Renderer& renderer, const std::string& text, const Color& color);

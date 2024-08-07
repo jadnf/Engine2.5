@@ -51,8 +51,8 @@ bool Texture::Create(std::string name, ...)
 {
 	va_list args;
 	va_start(args, name);
-	int renderer = va_arg(args, int);
+	Renderer renderer = va_arg(args, Renderer);
 	va_end(args);
 
-	return false;
+	return Load(name, renderer);
 }

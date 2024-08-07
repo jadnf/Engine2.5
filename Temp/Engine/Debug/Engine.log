@@ -1,2 +1,7 @@
-﻿  Engine.cpp
+﻿  TextureComponent.cpp
+  Engine.cpp
+  Font.cpp
+  Text.cpp
+  Texture.cpp
+  Generating Code...
   Engine.vcxproj -> C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Bin\Engine\Debug\Engine.lib
