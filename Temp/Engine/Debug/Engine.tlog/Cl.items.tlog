@@ -3,6 +3,7 @@ C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Comp
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Core\EAssert.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\EAssert.obj
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Core\EFile.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\EFile.obj
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Core\EngineTime.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\EngineTime.obj
+C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Core\Json.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\Json.obj
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Engine.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\Engine.obj
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Framework\Actor.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\Actor.obj
 C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Engine\Source\Framework\Scene.cpp;C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Temp\Engine\Debug\Scene.obj

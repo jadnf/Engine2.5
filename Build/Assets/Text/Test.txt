@@ -1,0 +1,6 @@
+{
+   "name":"Jadan",
+   "age":20,
+   "isAlive":false
+
+}

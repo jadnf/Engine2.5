@@ -9,7 +9,6 @@ public:
 	~Resource() = default;
 
 	virtual bool Create(std::string name, ...) = 0;
-
 };
 
 template<typename T = Resource>

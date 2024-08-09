@@ -10,15 +10,15 @@ class Model;
 class Renderer;
 class Scene;
 
-class Actor
+class Actor : public Object
 {
 public:
 	Actor() = default;
 	Actor(const Transform& transform) : m_transform{ transform } {}
 
-	void Initialize();
+	CLASS_DECLARATION(Actor);
 
-
+	void Initialize() override;
 	virtual void Update(float dt);
 	virtual void Draw(Renderer& renderer);
 
@@ -28,6 +28,7 @@ public:
 	void SetLifespan(float lifespan) { m_lifespan = lifespan; }
 
 	const Transform& GetTransform() { return m_transform; }
+	void SetTransform(Transform& transform) { m_transform = transform; }
 
 	void SetTag(const std::string& tag) { m_tag = tag; }
 	const std::string& GetTag() { return m_tag; }
