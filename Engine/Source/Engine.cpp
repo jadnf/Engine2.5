@@ -10,10 +10,12 @@ bool Engine::Initialize()
 	m_input = std::make_unique <Input>();
 	m_audio = std::make_unique <Audio>();
 	m_particleSystem = std::make_unique<ParticleSystem>();
+	m_physics = std::make_unique<Physics>();
 
-	m_renderer->Initialize();
 	m_renderer->CreateWindow("Game Engine", 800, 800);
+	m_renderer->Initialize();
 	m_input->Initialize();
+	m_physics->Initialize();
 	m_audio->Initialize();
 
 	m_time = std::make_unique <Time>();
@@ -25,6 +27,7 @@ void Engine::Shutdown()
 	m_renderer->Shutdown();
 	m_audio->Shutdown();
 	m_input->Shutdown();
+	m_physics->Shutdown();
 
 	//display memory leaks
 	_CrtMemDumpAllObjectsSince(NULL);
@@ -44,6 +47,7 @@ void Engine::Update()
 	m_time->Tick();
 	m_audio->Update();
 	m_input->Update();
+	m_physics->Update(m_time->GetDeltaTime());
 
 	m_particleSystem->Update(m_time->GetDeltaTime());
 }

@@ -7,6 +7,7 @@
 #include "Core/Json.h"
 #include "Core/Factory.h"
 #include "Core/Singleton.h"
+#include "Core/EString.h"
 //--systems
 // 
 //renderer
@@ -36,6 +37,10 @@
 
 //components
 #include "Components/TextureComponent.h"
+#include "Components/EnginePhysicsComponent.h"
+#include "Components/TextComponent.h"
+//physics
+#include "Physics/Physics.h"
 
 //files
 
@@ -76,5 +81,6 @@ private:
 	std::unique_ptr<Input> m_input;
 	std::unique_ptr<Audio> m_audio;
 	std::unique_ptr<ParticleSystem> m_particleSystem;
+	std::unique_ptr<Physics> m_physics;
 };
 

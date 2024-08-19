@@ -3,64 +3,48 @@
   "WorkspaceRootPath": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Framework\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Framework\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Framework\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Physics\\Physics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Physics\\Physics.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Core\\Factory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Core\\Factory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Physics\\Physics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Physics\\Physics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Resource\\ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Resource\\ResourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Resource\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Resource\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Components\\TextureComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Components\\TextureComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Renderer\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Renderer\\Texture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Renderer\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Renderer\\Texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Components\\RenderComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Components\\RenderComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Components\\TextureComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Components\\TextureComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE7BADB-3363-406E-A677-BA28A834479B}|Game\\Game.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Game\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BBE7BADB-3363-406E-A677-BA28A834479B}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Framework\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BBE7BADB-3363-406E-A677-BA28A834479B}|Game\\Game.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Build\\Assets\\Scenes\\scene.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BBE7BADB-3363-406E-A677-BA28A834479B}|Game\\Game.vcxproj|solutionrelative:Build\\Assets\\Scenes\\scene.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Framework\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Framework\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE7BADB-3363-406E-A677-BA28A834479B}|Game\\Game.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Game\\Source\\Components\\PlayerComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BBE7BADB-3363-406E-A677-BA28A834479B}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Components\\PlayerComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE7BADB-3363-406E-A677-BA28A834479B}|Game\\Game.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Game\\Source\\Components\\PlayerComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BBE7BADB-3363-406E-A677-BA28A834479B}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Components\\PlayerComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE7BADB-3363-406E-A677-BA28A834479B}|Game\\Game.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Game\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BBE7BADB-3363-406E-A677-BA28A834479B}|Game\\Game.vcxproj|solutionrelative:Game\\Source\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F13670C9-0138-4EA0-BD60-E28508F37074}|Engine\\Engine.vcxproj|solutionrelative:Engine\\Source\\Framework\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,201 +54,144 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Texture.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Renderer\\Texture.cpp",
-              "RelativeDocumentMoniker": "Engine\\Source\\Renderer\\Texture.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Renderer\\Texture.cpp",
-              "RelativeToolTip": "Engine\\Source\\Renderer\\Texture.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-09T16:32:02.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Resource.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Resource\\Resource.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Resource\\Resource.h",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Resource\\Resource.h",
-              "RelativeToolTip": "Engine\\Source\\Resource\\Resource.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-09T16:31:50.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResourceManager.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Resource\\ResourceManager.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Resource\\ResourceManager.h",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Resource\\ResourceManager.h",
-              "RelativeToolTip": "Engine\\Source\\Resource\\ResourceManager.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-09T16:31:46.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RenderComponent.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Components\\RenderComponent.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Components\\RenderComponent.h",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Components\\RenderComponent.h",
-              "RelativeToolTip": "Engine\\Source\\Components\\RenderComponent.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-09T16:31:40.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TextureComponent.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Components\\TextureComponent.cpp",
-              "RelativeDocumentMoniker": "Engine\\Source\\Components\\TextureComponent.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Components\\TextureComponent.cpp",
-              "RelativeToolTip": "Engine\\Source\\Components\\TextureComponent.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-09T16:31:24.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Texture.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Renderer\\Texture.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Renderer\\Texture.h",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Renderer\\Texture.h",
-              "RelativeToolTip": "Engine\\Source\\Renderer\\Texture.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-09T16:30:51.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TextureComponent.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Components\\TextureComponent.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Components\\TextureComponent.h",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Components\\TextureComponent.h",
-              "RelativeToolTip": "Engine\\Source\\Components\\TextureComponent.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-07T15:02:28.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Actor.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Actor.cpp",
-              "RelativeDocumentMoniker": "Engine\\Source\\Framework\\Actor.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Actor.cpp",
-              "RelativeToolTip": "Engine\\Source\\Framework\\Actor.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Engine.cpp",
+              "RelativeDocumentMoniker": "Engine\\Source\\Engine.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Engine.cpp",
+              "RelativeToolTip": "Engine\\Source\\Engine.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-09T16:19:35.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Scene.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Framework\\Scene.h",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.h",
-              "RelativeToolTip": "Engine\\Source\\Framework\\Scene.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-09T16:19:27.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Scene.cpp",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.cpp",
-              "RelativeDocumentMoniker": "Engine\\Source\\Framework\\Scene.cpp",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.cpp",
-              "RelativeToolTip": "Engine\\Source\\Framework\\Scene.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-09T16:19:26.057Z",
+              "WhenOpened": "2024-08-19T18:56:41.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Actor.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Actor.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Framework\\Actor.h",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Actor.h",
-              "RelativeToolTip": "Engine\\Source\\Framework\\Actor.h",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-09T16:04:55.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Engine.h",
               "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Engine.h",
               "RelativeDocumentMoniker": "Engine\\Source\\Engine.h",
               "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Engine.h",
               "RelativeToolTip": "Engine\\Source\\Engine.h",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-09T15:52:29.46Z",
+              "WhenOpened": "2024-08-19T18:54:30.566Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Object.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Object.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Framework\\Object.h",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Object.h",
-              "RelativeToolTip": "Engine\\Source\\Framework\\Object.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-09T15:34:28.631Z",
+              "Title": "Physics.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Physics\\Physics.cpp",
+              "RelativeDocumentMoniker": "Engine\\Source\\Physics\\Physics.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Physics\\Physics.cpp",
+              "RelativeToolTip": "Engine\\Source\\Physics\\Physics.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-19T18:54:05.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Factory.h",
-              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Core\\Factory.h",
-              "RelativeDocumentMoniker": "Engine\\Source\\Core\\Factory.h",
-              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Core\\Factory.h",
-              "RelativeToolTip": "Engine\\Source\\Core\\Factory.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Title": "Physics.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Physics\\Physics.h",
+              "RelativeDocumentMoniker": "Engine\\Source\\Physics\\Physics.h",
+              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Physics\\Physics.h",
+              "RelativeToolTip": "Engine\\Source\\Physics\\Physics.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-09T15:26:45.887Z",
+              "WhenOpened": "2024-08-19T18:52:57.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
+              "Title": "scene.json",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Build\\Assets\\Scenes\\scene.json",
+              "RelativeDocumentMoniker": "Build\\Assets\\Scenes\\scene.json",
+              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Build\\Assets\\Scenes\\scene.json",
+              "RelativeToolTip": "Build\\Assets\\Scenes\\scene.json",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-19T18:40:23.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerComponent.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Game\\Source\\Components\\PlayerComponent.h",
+              "RelativeDocumentMoniker": "Game\\Source\\Components\\PlayerComponent.h",
+              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Game\\Source\\Components\\PlayerComponent.h",
+              "RelativeToolTip": "Game\\Source\\Components\\PlayerComponent.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-19T16:39:11.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlayerComponent.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Game\\Source\\Components\\PlayerComponent.cpp",
+              "RelativeDocumentMoniker": "Game\\Source\\Components\\PlayerComponent.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Game\\Source\\Components\\PlayerComponent.cpp",
+              "RelativeToolTip": "Game\\Source\\Components\\PlayerComponent.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-19T16:39:07.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Actor.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Actor.h",
+              "RelativeDocumentMoniker": "Engine\\Source\\Framework\\Actor.h",
+              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Actor.h",
+              "RelativeToolTip": "Engine\\Source\\Framework\\Actor.h",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-19T16:35:15.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Game\\Source\\Main.cpp",
               "RelativeDocumentMoniker": "Game\\Source\\Main.cpp",
               "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Game\\Source\\Main.cpp",
               "RelativeToolTip": "Game\\Source\\Main.cpp",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAB8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-07T15:01:25.322Z",
+              "WhenOpened": "2024-08-19T16:29:29.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Scene.h",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.h",
+              "RelativeDocumentMoniker": "Engine\\Source\\Framework\\Scene.h",
+              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.h",
+              "RelativeToolTip": "Engine\\Source\\Framework\\Scene.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-19T16:19:54.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Scene.cpp",
+              "DocumentMoniker": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.cpp",
+              "RelativeDocumentMoniker": "Engine\\Source\\Framework\\Scene.cpp",
+              "ToolTip": "C:\\NeumontWorkspace\\introToGameProgramming\\GAT150  GameEngine\\Engine\\Source\\Framework\\Scene.cpp",
+              "RelativeToolTip": "Engine\\Source\\Framework\\Scene.cpp",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-19T16:18:47.246Z",
               "EditorCaption": ""
             }
           ]

@@ -2,11 +2,13 @@
 #include "../Resource/Resource.h"
 #include "../Math/Vector2.h"
 #include <string>
+struct SDL_Texture;
 
 class Texture : public Resource
 {
 public:
 	Texture() = default;
+	Texture(SDL_Texture* texture) : m_texture{texture}{}
 	~Texture();
 
 	bool Create(std::string name, ...) override;

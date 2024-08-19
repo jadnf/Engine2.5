@@ -3,9 +3,11 @@
 #include <string>
 #include <SDL_ttf.h>
 #include <SDL_image.h>
+#include <memory>
 
 
 class Texture;
+struct Transform;
 
 class Renderer {
 public:
@@ -25,11 +27,11 @@ public:
 	void DrawPoint(float x1, float y1);
 	void DrawRect(int x, int y, int w, int h);
 	void DrawRect(float x, float y, float w, float h);
-	void DrawTexture(Texture* texture, float x, float y, float angle);
-	void DrawTexture(Texture* texture, float x, float y, float angle, float scalex, float scaley);
-
 	int GetWidth() const { return m_width; }
 	int GetHeight() const { return m_height; }
+
+	void DrawTexture(std::weak_ptr<Texture> texture, float x, float y, float angle);
+	void DrawTexture(std::weak_ptr<Texture> texture, const Transform& transform, bool hflip = false);
 
 	friend class Text;
 	friend class Resource;

@@ -39,8 +39,12 @@ inline void Factory::Register(const std::string& name)
 template<typename T>
 inline std::unique_ptr<T> Factory::Create(const std::string& name)
 {
+	//check if name is in registry 
 	if (m_registry.find(name) != m_registry.end()) {
+		// if in registry create 
 		return std::unique_ptr<T>(dynamic_cast<T*>(m_registry[name]->Create().release()));
 	}
+	std::cerr << "Could not create factory object: " << name << std::endl;
+	//name is not in registry return unique_ptr
 	return std::unique_ptr<T>();
 }

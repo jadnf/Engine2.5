@@ -1,6 +1,9 @@
 {
    "name":"Jadan",
    "age":20,
-   "isAlive":false
+   "isAlive":false,
+   "Speed": 2,
+   "psoition": {10, 20},
+   "Color": {0,0,1,0}
 
 }
