@@ -1,0 +1,107 @@
+{
+    "m_actors": [
+        {
+            "name": "background",
+            "transform": {
+                "position": [
+                    0,
+                    0
+                ],
+                "rotation": 0,
+                "scale": 2.5
+            },
+            "components": [
+                {
+                    "type": "TextureComponent",
+                    "textureName": "textures/nebulae/Green_Nebula_08.png"
+                }
+            ]
+        },
+        {
+            "name": "player",
+            "transform": {
+                "position": [
+                    60,
+                    60
+                ],
+                "rotation": 0,
+                "scale": 3
+            },
+            "components": [
+                {
+                    "type": "TextureAnimationComponent",
+                    "animationName": "idle",
+                    "animations": [
+                        {
+                            "name": "idle",
+                            "fps": 12,
+                            "numColumns": 4,
+                            "numRows": 1,
+                            "startFrame": 1,
+                            "endFrame": 4,
+                            "textureName": "Textures/Idle_KG_1.png"
+                        },
+                        {
+                            "name": "run",
+                            "fps": 12,
+                            "numColumns": 12,
+                            "numRows": 1,
+                            "startFrame": 1,
+                            "endFrame": 12,
+                            "textureName": "Textures/Walking_KG_1.png"
+                        }
+                    ]
+                },
+
+                {
+                    "type": "Box2DPhysicsComponent",
+                    "gravityScale": 1,
+                    "damping": 1,
+                    "angularDamping": 1,
+                    "friction": 0.2,
+                    "constrainAngle": true,
+                    "restitution": 0,
+                    "size": [
+                        32,
+                        96
+                    ],
+                    "scale": [
+                        0.8,
+                        0.6
+                    ],
+                    "shape": "capsule"
+                },
+                {
+                    "type": "CharacterComponent",
+                    "speed": 200
+                }
+            ]
+        },
+        {
+            "name": "bat",
+            "transform": {
+                "position": [ 560, 400 ],
+                "rotation": 0,
+                "scale": 1
+            },
+            "components": [
+                {
+                    "type": "TextureAnimationComponent",
+                    "animationName": "idle",
+                    "animations": [
+                        {
+                            "name": "idle",
+                            "textureName": "textures/bat.png",
+                            "fps": 10,
+                            "loop": true,
+                            "numColumns": 4,
+                            "numRows": 1,
+                            "startFrame": 1,
+                            "endFrame": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

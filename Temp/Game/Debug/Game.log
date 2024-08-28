@@ -1,5 +1,2 @@
-﻿  PlayerComponent.cpp
-  Main.cpp
-  Generating Code...
-LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
+﻿LINK : warning LNK4067: ambiguous entry point; selected 'mainCRTStartup'
   Game.vcxproj -> C:\NeumontWorkspace\introToGameProgramming\GAT150  GameEngine\Bin\Game\Debug\Game.exe

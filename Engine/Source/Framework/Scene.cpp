@@ -3,6 +3,7 @@
 #include "../Renderer/Model.h"
 #include "Core/Factory.h"
 #include "Components\CollisionComponent.h"
+#include "Core/EAssert.h"
 #include <algorithm>
 
 void Scene::Initialize()
@@ -10,6 +11,11 @@ void Scene::Initialize()
 	for (auto& actor : m_actors) {
 		actor->Initialize();
 	}
+}
+
+Scene::Scene(const Scene& other)
+{
+	ASSERT(false);
 }
 
 void Scene::Read(const json_t& value)
@@ -20,7 +26,17 @@ void Scene::Read(const json_t& value)
 			auto actor = Factory::Instance().Create<Actor>(Actor::GetTypeName());
 			actor->Read(actorValue);
 
-			AddActor(std::move(actor));
+			bool prototype = false;
+			READ_DATA(actorValue, prototype);
+
+			if (prototype) {
+				std::string name = actor->name;
+				Factory::Instance().RegisterPrototype<Actor>(name, std::move(actor));
+			}
+			else {
+				AddActor(std::move(actor));
+
+			}
 		}
 	}
 }
@@ -41,7 +57,7 @@ void Scene::Update(float dt)
 	
 
 	//collision
-	for (auto& actor1 : m_actors) {
+	/*for (auto& actor1 : m_actors) {
 		CollisionComponent* collision1 = actor1->GetComponent<CollisionComponent>();
 		if (!collision1) continue;
 
@@ -49,8 +65,8 @@ void Scene::Update(float dt)
 			//dont check with self
 			if (actor1 == actor2) continue;
 			
-			CollisionComponent* collision2 = actor1->GetComponent<CollisionComponent>();
-			if (!collision1) continue;
+			CollisionComponent* collision2 = actor2->GetComponent<CollisionComponent>();
+			if (!collision2) continue;
 
 			if (collision1->CheckCollision(collision2)) {
 				//std::cout << "Hit!\n";
@@ -58,7 +74,7 @@ void Scene::Update(float dt)
 				if (actor2->OnCollisionEnter) actor2->OnCollisionEnter(actor1.get());
 			}
 		}
-	}
+	}*/
 }
 
 void Scene::Draw(Renderer& renderer)
@@ -69,13 +85,14 @@ void Scene::Draw(Renderer& renderer)
 	
 }
 
-void Scene::AddActor(std::unique_ptr<Actor> actor)
+void Scene::AddActor(std::unique_ptr<Actor> actor, bool initialize)
 {
 	actor->scene = this;
+	if (initialize) actor->Initialize();
 	m_actors.push_back(std::move(actor));
 }
 
-void Scene::RemoveAll() {
-	m_actors.clear();
+void Scene::RemoveAll(bool force) {
+	std::erase_if(m_actors, [force](auto& actor) { return (force || !actor->persistent); });
 }
 

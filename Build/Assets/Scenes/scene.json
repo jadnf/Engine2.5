@@ -13,7 +13,6 @@
                     "textureName": "textures/nebulae/Green_Nebula_08.png"
                 }
             ]
-
         },
         {
             "name": "player",
@@ -31,21 +30,17 @@
                     "textureName": "textures/player.png"
                 },
                 {
-                    "type": "EnginePhysicsComponent",
-                    "velocity": [
-                        0,
-                        0
-                    ],
-                    "damping": 1
+                    "type": "Box2DPhysicsComponent",
+                    "size": [ 32, 32 ],
+                    "gravityScale" : 0,
+                    "damping": 1,
+                    "angularDamping": 1
                 },
                 {
                     "type": "PlayerComponent",
                     "speed": 200
-                },
-                {
-                    "type": "CircleCollisionComponent",
-                    "radius": 24
                 }
+                
             ]
         },
         {
@@ -64,8 +59,10 @@
                     "textureName": "textures/enemy.png"
                 },
                 {
-                    "type": "CircleCollisionComponent",
-                    "radius": 24
+                    "type": "Box2DPhysicsComponent",
+                    "size": [ 32, 32 ],
+                    "damping": 0.0,
+                    "gravityScale": 0
                 }
             ]
         },
@@ -92,6 +89,42 @@
                         1
                     ]
                 }
+            ]
+        },
+        {
+            "name": "rocket",
+            "prototype": true,
+            "transform": {
+                "position": [
+                    60,
+                    60
+                ],
+                "rotation": 0,
+                "scale": 3
+            },
+            "components": [
+                {
+                    "type": "TextureComponent",
+                    "textureName": "textures/rocket.png"
+                },
+                {
+                    "type": "Box2DPhysicsComponent",
+                    "size": [ 16, 16 ],
+                    "damping": 0.0,
+                    "gravityScale": 0,
+                    "isSensor": true
+                },
+                {
+                    "type": "RocketComponent",
+                    "speed": 200
+                },
+                {
+                    "type": "AudioComponent",
+                    "soundName": "audio/cowbell.wav",
+                    "playOnStart": true,
+                    "volume": 40
+                }
+
             ]
         }
     ]

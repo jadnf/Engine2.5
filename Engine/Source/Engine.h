@@ -27,6 +27,8 @@
 #include "Math/Random.h"
 #include "Math/MathUtils.h"
 #include "Math/Transform.h"
+#include "Math/Rect.h"
+
 //framework
 #include "Framework/Actor.h"
 #include "Framework/Scene.h"
@@ -35,10 +37,15 @@
 #include "Resource/Resource.h"
 #include "Resource/ResourceManager.h"
 
+//event system
+#include "Event/EventSystem.h"
+
 //components
 #include "Components/TextureComponent.h"
+#include "Components/TextureAnimationComponent.h"
 #include "Components/EnginePhysicsComponent.h"
 #include "Components/TextComponent.h"
+
 //physics
 #include "Physics/Physics.h"
 
@@ -66,6 +73,7 @@ public:
 	Input& GetInput() { return *m_input; }
 	Audio& GetAudio() { return *m_audio; }
 	ParticleSystem& GetPS() { return *m_particleSystem; }
+	Physics& GetPhysics() { return *m_physics; }
 
 	Time& GetTime() { return *m_time; }
 

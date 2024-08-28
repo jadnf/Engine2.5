@@ -6,8 +6,11 @@
 #include <memory>
 
 
+
+
 class Texture;
 struct Transform;
+struct Rect;
 
 class Renderer {
 public:
@@ -32,6 +35,7 @@ public:
 
 	void DrawTexture(std::weak_ptr<Texture> texture, float x, float y, float angle);
 	void DrawTexture(std::weak_ptr<Texture> texture, const Transform& transform, bool hflip = false);
+	void DrawTexture(std::weak_ptr<Texture> texture, const Transform& transform, const struct Rect& source, bool hflip = false);
 
 	friend class Text;
 	friend class Resource;
