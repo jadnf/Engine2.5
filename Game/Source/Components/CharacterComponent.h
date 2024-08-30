@@ -13,8 +13,9 @@ public:
 	void OnCollisionExit(Actor* actor);
 
 public:
+	int groundCount{ 0 };
 	float speed{ 0 };
-	bool onGround;
+	
 
 	class PhysicsComponent* physics{ nullptr };
 	class TextureAnimationComponent* animation{ nullptr };

@@ -4,6 +4,7 @@
 RigidBody::RigidBody(const Transform& transform, const Vector2& size, const def_t& def, const Physics& physics)
 {
 	b2BodyDef bodyDef = b2DefaultBodyDef();
+	
 
 	// set body definition
 	bodyDef.type = (def.isDynamic) ? b2_dynamicBody : b2_staticBody;
@@ -18,7 +19,7 @@ RigidBody::RigidBody(const Transform& transform, const Vector2& size, const def_
 	// create body
 	m_bodyId = b2CreateBody(physics.m_worldId, &bodyDef);
 	b2ShapeDef shapeDef = b2DefaultShapeDef();
-	shapeDef.friction = def.restitution;
+	shapeDef.friction = def.friction;
 	shapeDef.restitution = def.restitution;
 	shapeDef.density = def.density;
 	shapeDef.isSensor = def.isSensor;
@@ -29,13 +30,14 @@ RigidBody::RigidBody(const Transform& transform, const Vector2& size, const def_
 
 	case Shape::BOX:
 	{
-		//b2Polygon box = b2MakeBox(hsize.x, hsize.y);
-		//b2CreatePolygonShape(m_bodyId, &shapeDef, &box);
+		b2Polygon box = b2MakeBox(hsize.x, hsize.y);
+		b2CreatePolygonShape(m_bodyId, &shapeDef, &box);
 	}
 		break;
 	case Shape::CAPSULE:
 	{
-		b2Capsule capsule{ b2Vec2{0, hsize.y},b2Vec2{0, -(hsize.y - hsize.x) } };
+		b2Capsule capsule{ b2Vec2 { 0, hsize.y - hsize.x }, b2Vec2 { 0, -(hsize.y - hsize.x) }, hsize.x};
+		b2CreateCapsuleShape(m_bodyId, &shapeDef, &capsule);
 	}
 		break;
 	case Shape::CIRCLE:
@@ -63,7 +65,7 @@ RigidBody::RigidBody(const Transform& transform, const Vector2& size, const def_
 	default:
 		break;
 	}
-	b2Polygon box = b2MakeBox(hsize.x, hsize.y);
+	
 	
 
 	

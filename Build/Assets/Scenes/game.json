@@ -25,7 +25,7 @@
                     60
                 ],
                 "rotation": 0,
-                "scale": 3
+                "scale": 1
             },
             "components": [
                 {
@@ -44,10 +44,10 @@
                         {
                             "name": "run",
                             "fps": 12,
-                            "numColumns": 12,
+                            "numColumns": 7,
                             "numRows": 1,
                             "startFrame": 1,
-                            "endFrame": 12,
+                            "endFrame": 7,
                             "textureName": "Textures/Walking_KG_1.png"
                         }
                     ]
@@ -59,21 +59,23 @@
                     "damping": 1,
                     "angularDamping": 1,
                     "friction": 0.2,
+                    "density":  3.0,
                     "constrainAngle": true,
                     "restitution": 0,
+                    "shape": "capsule",
                     "size": [
                         32,
                         96
                     ],
                     "scale": [
                         0.8,
-                        0.6
-                    ],
-                    "shape": "capsule"
+                        0.65
+                    ]
+                   
                 },
                 {
                     "type": "CharacterComponent",
-                    "speed": 200
+                    "speed": 1000
                 }
             ]
         },
@@ -100,6 +102,12 @@
                             "endFrame": 4
                         }
                     ]
+                },
+                {
+                    "type": "AudioComponent",
+                    "soundName": "audio/cowbell.wav",
+                    "playOnStart": true,
+                    "volume": 40
                 }
             ]
         }

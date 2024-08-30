@@ -1,9 +1,12 @@
 #include "TilemapComponent.h"
 #include "Framework/Actor.h"
 #include "Framework/Scene.h"
+
+FACTORY_REGISTER(TilemapComponent);
+
 void TilemapComponent::Initialize()
 {
-	for(int i = 0; i < tiles.size(); i++) {
+ 	for(int i = 0; i < tiles.size(); i++) {
 		int tileIndex = tiles[i];
 		if (tileIndex == 0) continue;
 

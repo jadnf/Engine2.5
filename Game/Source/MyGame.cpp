@@ -7,12 +7,15 @@
 bool MyGame::Initialize()
 {
 	//read json
-	rapidjson::Document document;
-	Json::Load("Scenes/game.json", document);
+	//rapidjson::Document document;
+	//Json::Load("Scenes/game.json", document);
 
 	//create + init
+	
 	m_scene = std::make_unique<Scene>(m_engine);
+
 	std::string sceneNames[] = { "Scenes/tilemap.json", "Scenes/game.json" };
+
 	for (auto sceneName : sceneNames) {
 		//read json
 		rapidjson::Document document;
@@ -21,7 +24,7 @@ bool MyGame::Initialize()
 	}
 
 
-	m_scene->Read(document);
+	//m_scene->Read(document);
 	m_scene->Initialize();
 
 	ADD_OBSERVER(playerDead, MyGame::OnPlayerDead)

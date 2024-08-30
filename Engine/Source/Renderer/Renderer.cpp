@@ -137,7 +137,7 @@ void Renderer::DrawTexture(std::weak_ptr<Texture> texture, const Transform& tran
 
 void Renderer::DrawTexture(std::weak_ptr<Texture> texture, const Transform& transform, const Rect& source, bool hflip)
 {
-	Vector2 size = Vector2{ source.w, source.h } *transform.scale;
+	Vector2 size = Vector2{ source.w, source.h } * transform.scale;
 
 	SDL_FRect destRect;
 	destRect.x = transform.position.x;

@@ -37,5 +37,6 @@ void TextureComponent::Update(float dt)
 void TextureComponent::Draw(Renderer& renderer)
 {
 	Transform transform = owner->transform;
-	renderer.DrawTexture(texture, transform, source);
+	
+	renderer.DrawTexture(texture, transform, source, hflip);
 }

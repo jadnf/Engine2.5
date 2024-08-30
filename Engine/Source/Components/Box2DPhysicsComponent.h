@@ -26,6 +26,7 @@ public:
 	RigidBody::def_t rigidBodyDef;
 	Vector2 size{ 0, 0 };
 	Vector2 scale{ 1,1 };
+	std::string shape{ "box" };
 
 private:
 	std::unique_ptr<RigidBody> m_rigidBody;
